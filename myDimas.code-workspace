@@ -1,28 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Dimas' Login Web Page</title>  
-	<style>
-		body {
-			width: 50%;
-			margin: auto;
-			margin-top: 40px;
-			font-family: Helvetica, sans-serif;
-			color: pink;
-			}
-		h2 {
-			color: blue;
-			border-bottom: 1px solid red;
-			}
-		
-	</style>  
+        <title>Dimas' Login Web Page</title>    
     </head>
 
     <body>
-	<p>
-		<h2> This is a Test Web Page for MK Decision </h2>
-		<h2> I am an Intern learning HTML, CSS, Javascript </h2>
-	</p>
          <p>
                 <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
          </p>  
