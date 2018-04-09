@@ -72,7 +72,7 @@
             if(form.userid.value == “UserID” && form.Passcode.value == "Password")
                 {
                     alert("Welcome User")
-                return true;
+                		return true;
                 <input type="submit" value="Submit">
 </form>
 
