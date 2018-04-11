@@ -1,0 +1,14 @@
+
+//Storing data:
+myObj = { "name":"Dimas", "age":46, "city":"San Diego" };
+myJSON = JSON.stringify(myObj);
+localStorage.setItem("testJSON", myJSON);
+
+//Retrieving data:
+text = localStorage.getItem("testJSON");
+obj = JSON.parse(text);
+document.getElementById("demo").innerHTML = obj.name;
+
+var myObj = { "name":"Dimas", "age":46, "city":"San Diego" };
+var myJSON = JSON.stringify(myObj);
+window.location = "demo_json.php?x=" + myJSON;
