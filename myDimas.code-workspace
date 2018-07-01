@@ -1,21 +1,21 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html json >
+<html lang="en-us">
     <head>
-        <title>Dimas' Login Web Page</title>    
+        <title>Dimas' Login Web Page</title>
     </head>
 
     <body>
          <p>
                 <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-         </p>  
+         </p>
             <form name="loginForm" method="post" action="login.php">
             <!-- <p> Test Code written since 01/15/2018 by DimasDeJesus  </p> -->
-        
+
         <table width="50%" bgcolor="0099CC" align=center">
         <tr>
             <td colspan=6> <center> <font size=6> <b> TESTing HTML - LOGIN PAGE </b> </font> </center></td>
         </tr>
-    
+
         <tr>
             <td>    Username:   </td>
             <td> <input type="text" size=25 name="userid"> </td>
@@ -30,29 +30,30 @@
             <td> <input type="Reset"> </td>
             <td> <input type="submit" onclick="return check(this.form)" value="Login"> </td>
         </tr>
-        
+
         </table>
         </form>
-        <script language = "javascript"> 
-            function check(form) 
+        <script language = "javascript">
+            function check(form)
             {
             if(form.userid.value == "UserID" && form.pwd.value == "Password")
-                { 
+                {
                     alert("Welcome User")
                 return true;
-                }
+    }
             else
-                { 
+            function validateForm(form)
+                {
                     alert("Error Password or Username")
-                return false; 
-                }
-            }
+                return false;
+    }
+}
         </script>
     <p>
-        <div class="LI-profile-badge"  data-version="v1" 
-        data-size="small" data-locale="en_US" data-type="vertical" 
-        data-theme="light" data-vanity="dimas-devops"><a class="LI-simple-link" 
-        href='https://www.linkedin.com/in/dimas-devops?trk=profile-badge'>Dimas Jr. DeJesus</a></div>
+        <div class="LI-profile-badge"  data-version="v1"
+        data-size="small" data-locale="en_US" data-type="vertical"
+        data-theme="light" data-vanity="dimas-devops"><a class="LI-simple-link"
+        href='https: //www.linkedin.com/in/dimas-devops?trk=profile-badge'>Dimas Jr. DeJesus</a></div>
     </p><br>
 </body>
 </html>

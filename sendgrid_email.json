@@ -1,0 +1,13 @@
+var data={
+  process:{
+    env:{
+    SENDGRID_API_KEY:{
+      "U0cudWROUnM2NlNUSlM3Ri1oeTNpODJJdy4xWjBTMWZEN3NEXzN2emo3aGEydW5FSDRQQkhzQk1HYWJXWjhxZFktMVZV"
+    },
+var msg = {
+  to: 'test@example.com',
+  from: 'test@example.com',
+  subject: 'Sending with SendGrid is Fun',
+  text: 'and easy to do anywhere, even with Node.js',
+  html: '<strong>and easy to do anywhere, even with Node.js</strong>',
+}
